@@ -27,8 +27,3 @@ Once app is open, click on Photos
 Crop photo to desired size
 
 ![Demo](gif.gif)
-
-<br>
-Photo is now cropped and saved to your computer
-
-![Demo](product.png)
