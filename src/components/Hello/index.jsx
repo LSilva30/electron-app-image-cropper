@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hello = () => {
   return (
     <div>
       <h1>Image Cropper</h1>
       <div className="Hello">
-        <Link to='/photos'>
+        <Link to="/photos">
           <button type="button">
             <span role="img" aria-label="camera">
               📸
             </span>
-           Photos
+            Photos
           </button>
         </Link>
       </div>
@@ -19,4 +19,4 @@ const Hello = () => {
   );
 };
 
-export default Hello
+export default Hello;
