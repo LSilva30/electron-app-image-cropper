@@ -40,7 +40,7 @@ export async function saveCroppedImage(fileName, imageSrc, croppedAreaPixels) {
   );
   const url = canvas.toDataURL('image/jpg', 0.8);
   const base64data = url.replace(/^data:image\/png;base64,/, '');
-  const newFileName = fileName + '-cropped.png';
+  const newFileName = `${fileName}-cropped.png`;
   fs.writeFile(newFileName, base64data, 'base64', (err) => {
     if (err) {
       console.error(err);
