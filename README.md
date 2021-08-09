@@ -25,3 +25,5 @@ Once app is open, click on Photos
 
 <br>
 Crop photo to desired size
+
+![Demo](gif.gif)
